@@ -3,7 +3,7 @@ require_once MAINDIR . "includes" . DS . "libs" . DS . "idn" . DS . "class.idn.p
 class WebNic2 extends DomainModule implements DomainPriceImport, DomainLookupInterface, DomainPremiumInterface, DomainModuleGluerecords
 {
     protected $version = "1.250416";
-    protected $description = "WebNic domain registrar module";
+    protected $description = "WebNic domain registrar module by Pho Tue SoftWare Solutions JSC";
     protected $modname = "WebNiC v2";
     protected $lang = ["english" => ["source" => "Source", "hide_form" => "Hide forms during transfer", "test" => "Test Mode"]];
     protected $commands = ["Register", "Transfer", "Renew", "ContactInfo", "RegisterNameServers"];
